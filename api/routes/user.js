@@ -7,7 +7,7 @@ const UserController = require("../controllers/user");
 
 router.get("/getUsers",UserController.getUsers);
 router.post("/addUser", UserController.addUser);
-router.patch("/updateUser/:userid",UserController.editUser);
+router.patch("/updateUser/:userId",UserController.editUser);
 router.delete("/deleteUser/:userId",UserController.deleteUser);
 
 module.exports = router;
